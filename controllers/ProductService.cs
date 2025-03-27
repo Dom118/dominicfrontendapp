@@ -1,5 +1,6 @@
 using System.Net.Http.Json;
 using ProductFE.Models; 
+using Microsoft.AspNetCore.Components.Forms;
 
 namespace FeProduct.Services
 {
@@ -39,6 +40,14 @@ namespace FeProduct.Services
         public async Task UpdateProductAsync(int id , Product product)
         {
             await _httpClient.PutAsJsonAsync($"api/products/{id}", product);
+        }
+
+        public async Task UploadProductImageAsync(int productId, IBrowserFile file)
+        {
+            var content = new MultipartFormDataContent();
+            var streamContent = new StreamContent(file.OpenReadStream(maxAllowedSize: 1024 * 1024 * 15)); // e.g., 15 MB max
+            content.Add(streamContent, "file", file.Name);
+            await _httpClient.PostAsync($"api/products/{productId}/upload-image", content);
         }
 
         
