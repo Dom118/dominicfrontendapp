@@ -1,0 +1,42 @@
+@page "/login"
+@using UserFE.Models;
+@using FeUser.Services;
+@inject NavigationManager Navigation;
+@inject UserService UserService;
+@using Microsoft.AspNetCore.Components.QuickGrid;
+
+
+<h3>Login</h3>
+
+    <EditForm Model="user" OnValidSubmit="HandleLogin">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <div>
+            <label for="email">Email:</label>
+            <InputText id="email" @bind-Value="user.Email" />
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <InputText id="password" type="password" @bind-Value="user.Password" />
+        </div>
+        <button type="submit">Login</button>
+    </EditForm>
+    
+
+@code {
+    private User user = new User();
+    private string errorMessage;
+
+    private async Task HandleLogin()
+    {
+        var response = await UserService.HandleLogin(user);
+        if (response.IsSuccessStatusCode)
+        {
+            Navigation.NavigateTo("/home");
+        }
+        else
+        {
+            errorMessage = "Login failed. Please check your email and password.";
+        }
+    }
+}
