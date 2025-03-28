@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\EcommerceFE.styles.css"
     },
     {
+      "Id": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
       "Id": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
