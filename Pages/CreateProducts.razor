@@ -43,6 +43,7 @@
     private async Task HandleValidSubmit()
     {
         await ProductService.CreateProductAsync(newProduct);
+        await ProductService.UploadProductImageAsync(newProduct.Id, selectedFile);
         Navigation.NavigateTo("/products");
     }
 

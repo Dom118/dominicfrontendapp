@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oEWZBPJzgrtaPmL1GAci3qfaDVpr68QMReSw4BX5ar0=",
+  "Hash": "K+DN+h7Z0peDXkJ0SDSCmN+zL8PsTbP3PpoENsrMXjs=",
   "Source": "EcommerceFE",
   "BasePath": "/",
   "Mode": "Root",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "izrjcp104j",
-      "Integrity": "brRaYWL8+L8k/f/hU4j4RJ9RMKcaRKZL9ruPoDIp8nE=",
+      "Fingerprint": "8ttbmvun7w",
+      "Integrity": "rL2oHg9/0GA4XJ2+T6Q5X9/etSNc6S0vg1E13Xk/JSQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -241,8 +241,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "0hwesyxeho",
-      "Integrity": "5I9rhFbeyosWZlQlzMRh4Ibn8404lXNiqFSANmLuahU=",
+      "Fingerprint": "9js5js6pz1",
+      "Integrity": "S101MFMVvdDFWzjpXB35GZPngjDSq84T6n1p7KvOIuQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\EcommerceFE.pdb"
@@ -262,8 +262,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "pyvyy07b1p",
-      "Integrity": "r5e0m9PC/COulcRFwB5ccuGM0e7c9y3fBmap4gqRONo=",
+      "Fingerprint": "cx3og5364g",
+      "Integrity": "4B23UAME30B73oj0cdvxfomlfV2ioMzA9780B/P4mHY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\webcil\\EcommerceFE.wasm"
@@ -5183,12 +5183,12 @@
       "OriginalItemSpec": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Security.Cryptography.Primitives.wasm"
     },
     {
-      "Identity": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\5st1eoh2z0-0hwesyxeho.gz",
+      "Identity": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\5st1eoh2z0-9js5js6pz1.gz",
       "SourceId": "EcommerceFE",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/EcommerceFE#[.{fingerprint=0hwesyxeho}]!.pdb.gz",
+      "RelativePath": "_framework/EcommerceFE#[.{fingerprint=9js5js6pz1}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5197,8 +5197,8 @@
       "RelatedAsset": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\bin\\Debug\\net9.0\\wwwroot\\_framework\\EcommerceFE.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "booykp8xqi",
-      "Integrity": "lfabgwjMKFju4XoADgmy1IuGM7WWMRKl5hQam20qL+w=",
+      "Fingerprint": "y3c2qjkbyg",
+      "Integrity": "MtBdw7mKm+KdvKYIQ/9eWkJhM8Pu564QOgHba5FGEjg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\bin\\Debug\\net9.0\\wwwroot\\_framework\\EcommerceFE.pdb"
@@ -7703,7 +7703,7 @@
       "OriginalItemSpec": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Abstractions.wasm"
     },
     {
-      "Identity": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\mdpr6jsh02-izrjcp104j.gz",
+      "Identity": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\mdpr6jsh02-8ttbmvun7w.gz",
       "SourceId": "EcommerceFE",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\",
@@ -7717,8 +7717,8 @@
       "RelatedAsset": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ajxwud0fru",
-      "Integrity": "xmNLWmxw2MQvJMW0yVhPjAx6AyHrKJt8Q/zhgU1WH0Y=",
+      "Fingerprint": "tu25jrl3ja",
+      "Integrity": "SxPUJTBBgyuSb059Pytw3kNyGfFTrUBTB5gpcqod7f0=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -9656,12 +9656,12 @@
       "OriginalItemSpec": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Net.WebProxy.wasm"
     },
     {
-      "Identity": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\zn8cwz3xvr-pyvyy07b1p.gz",
+      "Identity": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\zn8cwz3xvr-cx3og5364g.gz",
       "SourceId": "EcommerceFE",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/EcommerceFE#[.{fingerprint=pyvyy07b1p}]!.wasm.gz",
+      "RelativePath": "_framework/EcommerceFE#[.{fingerprint=cx3og5364g}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -9670,8 +9670,8 @@
       "RelatedAsset": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\bin\\Debug\\net9.0\\wwwroot\\_framework\\EcommerceFE.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "a7r6z5vi72",
-      "Integrity": "NnYtEFtVgpJj5wkUxg2hOxiMFnabE5KjziyD2FI8Mj4=",
+      "Fingerprint": "ra7wl2wgbj",
+      "Integrity": "82kjBR4Bn8V9QpfMb98I27MndTbMzDZKn19TzIj5IoQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\bin\\Debug\\net9.0\\wwwroot\\_framework\\EcommerceFE.wasm"
@@ -11158,11 +11158,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"brRaYWL8+L8k/f/hU4j4RJ9RMKcaRKZL9ruPoDIp8nE=\""
+          "Value": "\"rL2oHg9/0GA4XJ2+T6Q5X9/etSNc6S0vg1E13Xk/JSQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 11:13:29 GMT"
+          "Value": "Fri, 28 Mar 2025 13:47:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11172,18 +11172,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-brRaYWL8+L8k/f/hU4j4RJ9RMKcaRKZL9ruPoDIp8nE="
+          "Value": "sha256-rL2oHg9/0GA4XJ2+T6Q5X9/etSNc6S0vg1E13Xk/JSQ="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\mdpr6jsh02-izrjcp104j.gz",
+      "AssetFile": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\mdpr6jsh02-8ttbmvun7w.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000080834209"
+          "Quality": "0.000080827675"
         }
       ],
       "ResponseHeaders": [
@@ -11193,15 +11193,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12370"
+          "Value": "12371"
         },
         {
           "Name": "ETag",
-          "Value": "\"xmNLWmxw2MQvJMW0yVhPjAx6AyHrKJt8Q/zhgU1WH0Y=\""
+          "Value": "\"SxPUJTBBgyuSb059Pytw3kNyGfFTrUBTB5gpcqod7f0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 10:52:33 GMT"
+          "Value": "Fri, 28 Mar 2025 13:45:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11221,19 +11221,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"brRaYWL8+L8k/f/hU4j4RJ9RMKcaRKZL9ruPoDIp8nE=\""
+          "Value": "W/\"rL2oHg9/0GA4XJ2+T6Q5X9/etSNc6S0vg1E13Xk/JSQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-brRaYWL8+L8k/f/hU4j4RJ9RMKcaRKZL9ruPoDIp8nE="
+          "Value": "sha256-rL2oHg9/0GA4XJ2+T6Q5X9/etSNc6S0vg1E13Xk/JSQ="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\mdpr6jsh02-izrjcp104j.gz",
+      "AssetFile": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\mdpr6jsh02-8ttbmvun7w.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11242,7 +11242,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12370"
+          "Value": "12371"
         },
         {
           "Name": "Content-Type",
@@ -11250,11 +11250,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xmNLWmxw2MQvJMW0yVhPjAx6AyHrKJt8Q/zhgU1WH0Y=\""
+          "Value": "\"SxPUJTBBgyuSb059Pytw3kNyGfFTrUBTB5gpcqod7f0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 10:52:33 GMT"
+          "Value": "Fri, 28 Mar 2025 13:45:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11272,7 +11272,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xmNLWmxw2MQvJMW0yVhPjAx6AyHrKJt8Q/zhgU1WH0Y="
+          "Value": "sha256-SxPUJTBBgyuSb059Pytw3kNyGfFTrUBTB5gpcqod7f0="
         }
       ]
     },
@@ -13202,7 +13202,7 @@
       ]
     },
     {
-      "Route": "_framework/EcommerceFE.0hwesyxeho.pdb",
+      "Route": "_framework/EcommerceFE.9js5js6pz1.pdb",
       "AssetFile": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\bin\\Debug\\net9.0\\wwwroot\\_framework\\EcommerceFE.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -13212,7 +13212,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "41668"
+          "Value": "60444"
         },
         {
           "Name": "Content-Type",
@@ -13220,11 +13220,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5I9rhFbeyosWZlQlzMRh4Ibn8404lXNiqFSANmLuahU=\""
+          "Value": "\"S101MFMVvdDFWzjpXB35GZPngjDSq84T6n1p7KvOIuQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 11:13:27 GMT"
+          "Value": "Fri, 28 Mar 2025 13:47:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13234,7 +13234,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0hwesyxeho"
+          "Value": "9js5js6pz1"
         },
         {
           "Name": "label",
@@ -13242,18 +13242,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-5I9rhFbeyosWZlQlzMRh4Ibn8404lXNiqFSANmLuahU="
+          "Value": "sha256-S101MFMVvdDFWzjpXB35GZPngjDSq84T6n1p7KvOIuQ="
         }
       ]
     },
     {
-      "Route": "_framework/EcommerceFE.0hwesyxeho.pdb",
-      "AssetFile": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\5st1eoh2z0-0hwesyxeho.gz",
+      "Route": "_framework/EcommerceFE.9js5js6pz1.pdb",
+      "AssetFile": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\5st1eoh2z0-9js5js6pz1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000031111941"
+          "Quality": "0.000021282935"
         }
       ],
       "ResponseHeaders": [
@@ -13263,15 +13263,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "32141"
+          "Value": "46985"
         },
         {
           "Name": "ETag",
-          "Value": "\"lfabgwjMKFju4XoADgmy1IuGM7WWMRKl5hQam20qL+w=\""
+          "Value": "\"MtBdw7mKm+KdvKYIQ/9eWkJhM8Pu564QOgHba5FGEjg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 11:13:29 GMT"
+          "Value": "Fri, 28 Mar 2025 13:47:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13291,13 +13291,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"5I9rhFbeyosWZlQlzMRh4Ibn8404lXNiqFSANmLuahU=\""
+          "Value": "W/\"S101MFMVvdDFWzjpXB35GZPngjDSq84T6n1p7KvOIuQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0hwesyxeho"
+          "Value": "9js5js6pz1"
         },
         {
           "Name": "label",
@@ -13305,13 +13305,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-5I9rhFbeyosWZlQlzMRh4Ibn8404lXNiqFSANmLuahU="
+          "Value": "sha256-S101MFMVvdDFWzjpXB35GZPngjDSq84T6n1p7KvOIuQ="
         }
       ]
     },
     {
-      "Route": "_framework/EcommerceFE.0hwesyxeho.pdb.gz",
-      "AssetFile": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\5st1eoh2z0-0hwesyxeho.gz",
+      "Route": "_framework/EcommerceFE.9js5js6pz1.pdb.gz",
+      "AssetFile": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\5st1eoh2z0-9js5js6pz1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13320,7 +13320,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "32141"
+          "Value": "46985"
         },
         {
           "Name": "Content-Type",
@@ -13328,11 +13328,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lfabgwjMKFju4XoADgmy1IuGM7WWMRKl5hQam20qL+w=\""
+          "Value": "\"MtBdw7mKm+KdvKYIQ/9eWkJhM8Pu564QOgHba5FGEjg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 11:13:29 GMT"
+          "Value": "Fri, 28 Mar 2025 13:47:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13350,7 +13350,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0hwesyxeho"
+          "Value": "9js5js6pz1"
         },
         {
           "Name": "label",
@@ -13358,7 +13358,168 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-lfabgwjMKFju4XoADgmy1IuGM7WWMRKl5hQam20qL+w="
+          "Value": "sha256-MtBdw7mKm+KdvKYIQ/9eWkJhM8Pu564QOgHba5FGEjg="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/EcommerceFE.cx3og5364g.wasm",
+      "AssetFile": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\bin\\Debug\\net9.0\\wwwroot\\_framework\\EcommerceFE.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85269"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4B23UAME30B73oj0cdvxfomlfV2ioMzA9780B/P4mHY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 13:47:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cx3og5364g"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/EcommerceFE.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4B23UAME30B73oj0cdvxfomlfV2ioMzA9780B/P4mHY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/EcommerceFE.cx3og5364g.wasm",
+      "AssetFile": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\zn8cwz3xvr-cx3og5364g.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000031090660"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32163"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"82kjBR4Bn8V9QpfMb98I27MndTbMzDZKn19TzIj5IoQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 13:47:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"4B23UAME30B73oj0cdvxfomlfV2ioMzA9780B/P4mHY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cx3og5364g"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/EcommerceFE.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4B23UAME30B73oj0cdvxfomlfV2ioMzA9780B/P4mHY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/EcommerceFE.cx3og5364g.wasm.gz",
+      "AssetFile": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\zn8cwz3xvr-cx3og5364g.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32163"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"82kjBR4Bn8V9QpfMb98I27MndTbMzDZKn19TzIj5IoQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 13:47:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cx3og5364g"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/EcommerceFE.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-82kjBR4Bn8V9QpfMb98I27MndTbMzDZKn19TzIj5IoQ="
         }
       ]
     },
@@ -13373,7 +13534,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "41668"
+          "Value": "60444"
         },
         {
           "Name": "Content-Type",
@@ -13381,11 +13542,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5I9rhFbeyosWZlQlzMRh4Ibn8404lXNiqFSANmLuahU=\""
+          "Value": "\"S101MFMVvdDFWzjpXB35GZPngjDSq84T6n1p7KvOIuQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 11:13:27 GMT"
+          "Value": "Fri, 28 Mar 2025 13:47:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13395,18 +13556,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-5I9rhFbeyosWZlQlzMRh4Ibn8404lXNiqFSANmLuahU="
+          "Value": "sha256-S101MFMVvdDFWzjpXB35GZPngjDSq84T6n1p7KvOIuQ="
         }
       ]
     },
     {
       "Route": "_framework/EcommerceFE.pdb",
-      "AssetFile": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\5st1eoh2z0-0hwesyxeho.gz",
+      "AssetFile": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\5st1eoh2z0-9js5js6pz1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000031111941"
+          "Quality": "0.000021282935"
         }
       ],
       "ResponseHeaders": [
@@ -13416,15 +13577,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "32141"
+          "Value": "46985"
         },
         {
           "Name": "ETag",
-          "Value": "\"lfabgwjMKFju4XoADgmy1IuGM7WWMRKl5hQam20qL+w=\""
+          "Value": "\"MtBdw7mKm+KdvKYIQ/9eWkJhM8Pu564QOgHba5FGEjg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 11:13:29 GMT"
+          "Value": "Fri, 28 Mar 2025 13:47:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13444,19 +13605,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"5I9rhFbeyosWZlQlzMRh4Ibn8404lXNiqFSANmLuahU=\""
+          "Value": "W/\"S101MFMVvdDFWzjpXB35GZPngjDSq84T6n1p7KvOIuQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-5I9rhFbeyosWZlQlzMRh4Ibn8404lXNiqFSANmLuahU="
+          "Value": "sha256-S101MFMVvdDFWzjpXB35GZPngjDSq84T6n1p7KvOIuQ="
         }
       ]
     },
     {
       "Route": "_framework/EcommerceFE.pdb.gz",
-      "AssetFile": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\5st1eoh2z0-0hwesyxeho.gz",
+      "AssetFile": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\5st1eoh2z0-9js5js6pz1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13465,7 +13626,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "32141"
+          "Value": "46985"
         },
         {
           "Name": "Content-Type",
@@ -13473,11 +13634,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lfabgwjMKFju4XoADgmy1IuGM7WWMRKl5hQam20qL+w=\""
+          "Value": "\"MtBdw7mKm+KdvKYIQ/9eWkJhM8Pu564QOgHba5FGEjg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 11:13:29 GMT"
+          "Value": "Fri, 28 Mar 2025 13:47:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13495,168 +13656,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lfabgwjMKFju4XoADgmy1IuGM7WWMRKl5hQam20qL+w="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/EcommerceFE.pyvyy07b1p.wasm",
-      "AssetFile": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\bin\\Debug\\net9.0\\wwwroot\\_framework\\EcommerceFE.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "49429"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"r5e0m9PC/COulcRFwB5ccuGM0e7c9y3fBmap4gqRONo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 11:13:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pyvyy07b1p"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/EcommerceFE.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-r5e0m9PC/COulcRFwB5ccuGM0e7c9y3fBmap4gqRONo="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/EcommerceFE.pyvyy07b1p.wasm",
-      "AssetFile": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\zn8cwz3xvr-pyvyy07b1p.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000049773530"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "20090"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"NnYtEFtVgpJj5wkUxg2hOxiMFnabE5KjziyD2FI8Mj4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 11:13:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"r5e0m9PC/COulcRFwB5ccuGM0e7c9y3fBmap4gqRONo=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pyvyy07b1p"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/EcommerceFE.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-r5e0m9PC/COulcRFwB5ccuGM0e7c9y3fBmap4gqRONo="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/EcommerceFE.pyvyy07b1p.wasm.gz",
-      "AssetFile": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\zn8cwz3xvr-pyvyy07b1p.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "20090"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"NnYtEFtVgpJj5wkUxg2hOxiMFnabE5KjziyD2FI8Mj4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 11:13:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pyvyy07b1p"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/EcommerceFE.wasm.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-NnYtEFtVgpJj5wkUxg2hOxiMFnabE5KjziyD2FI8Mj4="
+          "Value": "sha256-MtBdw7mKm+KdvKYIQ/9eWkJhM8Pu564QOgHba5FGEjg="
         }
       ]
     },
@@ -13671,7 +13671,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "49429"
+          "Value": "85269"
         },
         {
           "Name": "Content-Type",
@@ -13679,11 +13679,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"r5e0m9PC/COulcRFwB5ccuGM0e7c9y3fBmap4gqRONo=\""
+          "Value": "\"4B23UAME30B73oj0cdvxfomlfV2ioMzA9780B/P4mHY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 11:13:28 GMT"
+          "Value": "Fri, 28 Mar 2025 13:47:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13693,18 +13693,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-r5e0m9PC/COulcRFwB5ccuGM0e7c9y3fBmap4gqRONo="
+          "Value": "sha256-4B23UAME30B73oj0cdvxfomlfV2ioMzA9780B/P4mHY="
         }
       ]
     },
     {
       "Route": "_framework/EcommerceFE.wasm",
-      "AssetFile": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\zn8cwz3xvr-pyvyy07b1p.gz",
+      "AssetFile": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\zn8cwz3xvr-cx3og5364g.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000049773530"
+          "Quality": "0.000031090660"
         }
       ],
       "ResponseHeaders": [
@@ -13714,15 +13714,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20090"
+          "Value": "32163"
         },
         {
           "Name": "ETag",
-          "Value": "\"NnYtEFtVgpJj5wkUxg2hOxiMFnabE5KjziyD2FI8Mj4=\""
+          "Value": "\"82kjBR4Bn8V9QpfMb98I27MndTbMzDZKn19TzIj5IoQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 11:13:29 GMT"
+          "Value": "Fri, 28 Mar 2025 13:47:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13742,19 +13742,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"r5e0m9PC/COulcRFwB5ccuGM0e7c9y3fBmap4gqRONo=\""
+          "Value": "W/\"4B23UAME30B73oj0cdvxfomlfV2ioMzA9780B/P4mHY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-r5e0m9PC/COulcRFwB5ccuGM0e7c9y3fBmap4gqRONo="
+          "Value": "sha256-4B23UAME30B73oj0cdvxfomlfV2ioMzA9780B/P4mHY="
         }
       ]
     },
     {
       "Route": "_framework/EcommerceFE.wasm.gz",
-      "AssetFile": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\zn8cwz3xvr-pyvyy07b1p.gz",
+      "AssetFile": "C:\\Users\\2391439\\Documents\\Learning\\EcommerceFE\\obj\\Debug\\net9.0\\compressed\\zn8cwz3xvr-cx3og5364g.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13763,7 +13763,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20090"
+          "Value": "32163"
         },
         {
           "Name": "Content-Type",
@@ -13771,11 +13771,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NnYtEFtVgpJj5wkUxg2hOxiMFnabE5KjziyD2FI8Mj4=\""
+          "Value": "\"82kjBR4Bn8V9QpfMb98I27MndTbMzDZKn19TzIj5IoQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 11:13:29 GMT"
+          "Value": "Fri, 28 Mar 2025 13:47:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13793,7 +13793,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NnYtEFtVgpJj5wkUxg2hOxiMFnabE5KjziyD2FI8Mj4="
+          "Value": "sha256-82kjBR4Bn8V9QpfMb98I27MndTbMzDZKn19TzIj5IoQ="
         }
       ]
     },

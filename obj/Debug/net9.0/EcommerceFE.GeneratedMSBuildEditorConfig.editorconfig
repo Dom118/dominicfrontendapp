@@ -32,6 +32,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/2391439/Documents/Learning/EcommerceFE/Pages/Checkout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/2391439/Documents/Learning/EcommerceFE/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -48,6 +52,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uUmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/2391439/Documents/Learning/EcommerceFE/Pages/Logout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/2391439/Documents/Learning/EcommerceFE/Pages/ProductDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdERldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -60,6 +68,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvcC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/2391439/Documents/Learning/EcommerceFE/Pages/TokenReciever.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9rZW5SZWNpZXZlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/2391439/Documents/Learning/EcommerceFE/Pages/UpdateProducts.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBkYXRlUHJvZHVjdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -70,10 +82,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/2391439/Documents/Learning/EcommerceFE/Pages/UserRoleManagement.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclJvbGVNYW5hZ2VtZW50LnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/2391439/Documents/Learning/EcommerceFE/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/2391439/Documents/Learning/EcommerceFE/_Imports.razor]
