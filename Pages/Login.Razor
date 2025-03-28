@@ -9,7 +9,7 @@
 @code {
     private void LoginWithGitHub()
     {
-        var apiBaseUrl = Configuration["dominicbackendapp-gvewgradhvbke4fa.eastus2-01.azurewebsites.net"];
+        var apiBaseUrl = Configuration["ApiBaseUrl"];
         NavManager.NavigateTo($"{apiBaseUrl}/auth/login", forceLoad: true);
     }
 }
