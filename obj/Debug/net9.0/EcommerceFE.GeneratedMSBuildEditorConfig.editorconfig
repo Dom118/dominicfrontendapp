@@ -28,6 +28,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/2391439/Documents/Learning/EcommerceFE/Pages/Cart.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/2391439/Documents/Learning/EcommerceFE/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -58,6 +62,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/2391439/Documents/Learning/EcommerceFE/Pages/UpdateProducts.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBkYXRlUHJvZHVjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2391439/Documents/Learning/EcommerceFE/Pages/UserProfile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclByb2ZpbGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2391439/Documents/Learning/EcommerceFE/Pages/UserRoleManagement.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclJvbGVNYW5hZ2VtZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/2391439/Documents/Learning/EcommerceFE/Pages/Weather.razor]
