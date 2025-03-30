@@ -1,22 +1,205 @@
 ﻿@inherits LayoutComponentBase
-<div class="page">
+
+<div class="page @(isSidebarOpen ? "sidebar-open" : "")">
     <div class="top-bar">
-        <div class="top-bar-buttons">
-            <button class="btn">Home</button>
-            <button class="btn">Profile</button>
-            <button class="btn">Cart</button>
+        <div class="menu-container">
+            <button class="menu-btn" @onclick="ToggleSidebar">☰</button>
+            <span>MinimalX</span>
+        </div>
+        <div class="top-buttons">
+            <div class="dropdown">
+                <button class="top-btn">Profile</button>
+                <div class="dropdown-content">
+                    <a href="#">Sign In</a>
+                    <a href="#">Sign Out</a>
+                </div>
+            </div>
+            <button class="top-btn">Cart</button>
         </div>
     </div>
-    <main>
-        <!-- Main content -->
+
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+    <main class="main-content">
         <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
+            <a href=https://learn.microsoft.com/aspnet/core/ target="_blank">About</a>
         </div>
         <article class="content px-4">
             @Body
         </article>
     </main>
-    <div class="sidebar">
-        <NavMenu />
-    </div>
 </div>
+
+@code {
+
+    private bool isSidebarOpen = false;
+    private void ToggleSidebar()
+    {
+        isSidebarOpen = !isSidebarOpen;
+    }
+
+}
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+
+    .page {
+        height: 100vh;
+        overflow: hidden;
+        background-color: white;
+    }
+
+ 
+
+    /* Top Bar Styles */
+    .top-bar {
+        background-color: #000000;
+        color: white;
+        padding: 15px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 100;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+ 
+
+    .menu-container {
+        display: flex;
+        align-items: center;
+    }
+
+ 
+
+    /* Sidebar Styles */
+    .sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 60px;
+        left: 0;
+        background-color: #000000;
+        overflow-x: hidden;
+        transition: width 0.5s;
+        padding-top: 20px;
+
+    }
+
+ 
+
+    .sidebar a {
+        padding: 15px 25px;
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        display: block;
+        transition: background-color 0.3s;
+    }
+
+
+    .sidebar a:hover {
+        background-color: #333333;
+    }
+
+
+    /* Main Content */
+    .main-content {
+        margin-top: 60px;
+        padding: 20px;
+        transition: margin-left 0.5s;
+        background-color: white;
+    }
+
+    /* Menu Button */
+    .menu-btn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #333333;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        margin-right: 10px;
+    }
+
+    /* Top Bar Buttons */
+    .top-buttons {
+        display: flex;
+        gap: 10px;
+        position: relative;
+    }
+
+    .top-btn {
+        background-color: #333333;
+        color: white;
+        padding: 8px 15px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+    }
+ 
+    .top-btn:hover {
+        background-color: #555555;
+    }
+
+    /* Dropdown Styles */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: #000000;
+        min-width: 120px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        transition: background-color 0.3s;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #333333;
+    }
+
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .top-btn {
+        background-color: #555555;
+    }
+
+ 
+    /* Sidebar Open State */
+    .page.sidebar-open .sidebar {
+        width: 250px;
+    }
+
+    .page.sidebar-open .main-content {
+        margin-left: 250px;
+
+    }
+
+</style>
