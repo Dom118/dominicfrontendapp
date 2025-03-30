@@ -10,6 +10,8 @@ main {
 
 .sidebar {
     background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    background-color: black;
+    
 }
 
 .top-row {
@@ -34,6 +36,15 @@ main {
     .top-row ::deep a:first-child {
         overflow: hidden;
         text-overflow: ellipsis;
+    }
+    .top-bar {
+        background-color: black; /* Change this to your preferred color */
+        height: 3.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1rem;
+        color: white; /* Text color */
     }
 
 @media (max-width: 640.98px) {
