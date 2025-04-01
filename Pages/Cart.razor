@@ -1,7 +1,9 @@
 @page "/cart"
 @using MinimalX.AuthServices
+@using Microsoft.AspNetCore.Components
 @inject HttpClient Http
 @inject AuthService AuthService
+@inject NavigationManager NavManager
 
 <h3>My Cart</h3>
 
@@ -28,7 +30,7 @@ else
             @foreach (var item in cartItems)
             {
                 <tr>
-                    <td>@item.ProductName</td>
+                    <td>@item.ProductId</td>
                     <td>@item.UnitPrice.ToString("C")</td>
                     <td>@item.Quantity</td>
                     <td>
@@ -93,6 +95,8 @@ else
         {
             // Clear cart in UI
             cartItems = new List<CartItemDto>();
+            NavManager.NavigateTo("/checkout");
+            
             // Possibly navigate to /orders to see new order
         }
     }
