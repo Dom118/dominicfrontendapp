@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>WasmResource</AssetTraitName>
       <AssetTraitValue>settings</AssetTraitValue>
-      <Fingerprint>cjqytdemst</Fingerprint>
-      <Integrity>2Ku2W+fuhgUKbtWtbRXCMelynd+gRetB5LfZ9wWjJAA=</Integrity>
+      <Fingerprint>1nvjjegxx1</Fingerprint>
+      <Integrity>E66pZBOH51nAdiCy+fjx5VesQfRyoARWM95/cSTMe3o=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\appsettings.json'))</OriginalItemSpec>
@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>8iknq6bjp3</Fingerprint>
-      <Integrity>kGlk2MISRitdl/TvXybpTvHAUfHTejlqJH4ZT+IcA74=</Integrity>
+      <Fingerprint>u9ci8gx3mw</Fingerprint>
+      <Integrity>oiaWziXgVMBBE5tQ2AFCmYLsP8xjTCU0Yl0sbgjvHiE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\EcommerceFE.styles.css'))</OriginalItemSpec>
