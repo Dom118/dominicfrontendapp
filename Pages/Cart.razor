@@ -19,6 +19,7 @@ else
         <thead>
             <tr>
                 <th>Product</th>
+                <th>Unit Price</th>
                 <th>Quantity</th>
                 <th>Actions</th>
             </tr>
@@ -28,6 +29,7 @@ else
             {
                 <tr>
                     <td>@item.ProductName</td>
+                    <td>@item.UnitPrice.ToString("C")</td>
                     <td>@item.Quantity</td>
                     <td>
                         <button class="btn btn-sm btn-warning"
@@ -40,6 +42,13 @@ else
                 </tr>
             }
         </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="text-right"><strong>Total:</strong></td>
+                <td>@cartItems.Sum(item => item.UnitPrice * item.Quantity).ToString("C")</td>
+                <td></td>
+            </tr>
+        </tfoot>
     </table>
 
     <button class="btn btn-primary" @onclick="Checkout">Checkout</button>

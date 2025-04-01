@@ -45,19 +45,19 @@ else
     @if (paypalOrderId > 0)
     {
         <div style="margin-top:20px;">
-            <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+            <form action="https://sandbox.paypal.com/cgi-bin/webscr" method="post">
                 <input type="hidden" name="cmd" value="_xclick" />
                 <!-- Your PayPal sandbox business email -->
-                <input type="hidden" name="business" value="sandbox-business@example.com" />
+                <input type="hidden" name="business" value="sb-temjk39322283_api1.business.example.com" />
 
                 <input type="hidden" name="item_name" value="MyApp Purchase" />
                 <input type="hidden" name="item_number" value="@paypalOrderId" />
                 <input type="hidden" name="amount" value="@grandTotal" />
                 <input type="hidden" name="currency_code" value="USD" />
                 <input type="hidden" name="return"
-                       value="https://courageblazorfeapp-fmghdhazf4h3dbb7.uksouth-01.azurewebsites.net/payment-success?method=paypal&orderId=@paypalOrderId" />
+                       value="https://dominicfrontendapp-dgdugkhndkh7e8et.eastus2-01.azurewebsites.net/payment-success?method=paypal&orderId=@paypalOrderId" />
                 <input type="hidden" name="cancel_return"
-                       value="https://courageblazorfeapp-fmghdhazf4h3dbb7.uksouth-01.azurewebsites.net/payment-cancel?method=paypal" />
+                       value="hhttps://dominicfrontendapp-dgdugkhndkh7e8et.eastus2-01.azurewebsites.net/payment-cancel?method=paypal" />
 
                 <input type="submit" class="btn btn-secondary" value="Pay with PayPal" />
             </form>
@@ -71,11 +71,6 @@ else
         </button>
     }
 
-    <!-- 3) Pay with Stripe (No Webhook) -->
-    <button class="btn btn-success" style="margin-left:20px;"
-            @onclick="InitiateStripePaymentNoWebhook">
-        Pay with Stripe (No Webhook)
-    </button>
 }
 
 @code {
@@ -107,27 +102,6 @@ else
         }
     }
 
-    // 3) Stripe (No Webhook)
-    private async Task InitiateStripePaymentNoWebhook()
-    {
-        var request = new PaymentRequest
-        {
-            Amount = grandTotal,
-            Currency = "usd"
-        };
-
-        // calls e.g. /api/payments/create-checkout-session-nowebhook
-        var response = await Http.PostAsJsonAsync("api/payments/create-checkout-session-nowebhook", request);
-        if (response.IsSuccessStatusCode)
-        {
-            var paymentResp = await response.Content.ReadFromJsonAsync<PaymentResponse>();
-            if (!string.IsNullOrEmpty(paymentResp?.PaymentUrl))
-            {
-                // redirect user to Stripe's Checkout
-                NavManager.NavigateTo(paymentResp.PaymentUrl, forceLoad: true);
-            }
-        }
-    }
 
     // Minimal models
     public class CartItemDto
