@@ -27,7 +27,7 @@ else
             @foreach (var item in cartItems)
             {
                 <tr>
-                    <td>@item.Name</td>
+                    <td>@item.ProductName</td>
                     <td>@item.Quantity</td>
                     <td>
                         <button class="btn btn-sm btn-warning"
@@ -92,9 +92,9 @@ else
     {
         public int Id { get; set; }
         public int ProductId { get; set; }
-        public string Name { get; set; }
         public int Quantity { get; set; }
         public decimal UnitPrice { get; set; }
+        public string ProductName { get; set; } = string.Empty;
         public string UserId { get; set; } = string.Empty;
     }
 }
