@@ -5,15 +5,94 @@
 
 <PageTitle>Home</PageTitle>
 
-@if (userProfile == null)
-{
-    <h3>MinimalX</h3>
-}
-else
-{
-    <h3>Hello @userProfile.FirstName (@userProfile.Role)</h3>
-}
-
+<div class="container py-5">
+    <!-- User Profile Section -->
+    <div class="row justify-content-center mb-5">
+        <div class="col-md-8">
+            <div class="card shadow-sm">
+                <div class="card-body text-center">
+                    @if (userProfile == null)
+                    {
+                        <h3 class="card-title mb-4">Welcome to MinimalX</h3>
+                        <p class="text-muted">Please sign in to access your profile</p>
+                        <div class="mt-4">
+                            <a href="/login" class="btn btn-primary px-4">Sign In</a>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="mb-4">
+                            <h3 class="card-title">Hello @userProfile.FirstName!</h3>
+                            <span class="badge bg-primary">@userProfile.Role</span>
+                        </div>
+                        <div class="row text-start">
+                            <div class="col-md-6">
+                                <p><strong>Username:</strong> @userProfile.Username</p>
+                                @if (!string.IsNullOrEmpty(userProfile.Email))
+                                {
+                                    <p><strong>Email:</strong> @userProfile.Email</p>
+                                }
+                            </div>
+                            <div class="col-md-6">
+                                @if (!string.IsNullOrEmpty(userProfile.LastName))
+                                {
+                                    <p><strong>Last Name:</strong> @userProfile.LastName</p>
+                                }
+                                @if (!string.IsNullOrEmpty(userProfile.PhoneNumber))
+                                {
+                                    <p><strong>Phone:</strong> @userProfile.PhoneNumber</p>
+                                }
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <a href="/profile" class="btn btn-outline-primary me-2">Edit Profile</a>
+                            <a href="/logout" class="btn btn-outline-secondary">Logout</a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- Feature Cards Section -->
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="https://domsa.blob.core.windows.net/product-images/headphones.jpg" class="card-img-top" alt="Feature 1">
+                <div class="card-body">
+                    <h5 class="card-title">Headphones</h5>
+                    <p class="card-text">Discover our stylish range of headphones.</p>
+                </div>
+                <div class="card-footer bg-transparent border-0">
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="https://domsa.blob.core.windows.net/product-images/collection.jpg" class="card-img-top" alt="Feature 2">
+                <div class="card-body">
+                    <h5 class="card-title">Accessorise</h5>
+                    <p class="card-text">Find the perfect accessory for you.</p>
+                </div>
+                <div class="card-footer bg-transparent border-0">
+                    <a href="#" class="btn btn-primary">Join Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <img src="https://domsa.blob.core.windows.net/product-images/cases.jpg" class="card-img-top" alt="Feature 3">
+                <div class="card-body">
+                    <h5 class="card-title">Phone Cases</h5>
+                    <p class="card-text">Protect your Phone with style.</p>
+                </div>
+                <div class="card-footer bg-transparent border-0">
+                    <a href="#" class="btn btn-primary">Get Help</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 @code {
     private UserProfileModel? userProfile;
 
@@ -34,7 +113,6 @@ else
             userProfile = null;
         }
     }
-
     public class UserProfileModel
     {
         public int Id { get; set; }
