@@ -93,8 +93,8 @@ else
         var response = await Http.PostAsync("api/orders/checkout", null);
         if (response.IsSuccessStatusCode)
         {
-            // Clear cart in UI
-            cartItems = new List<CartItemDto>();
+           
+           //cartItems = new List<CartItemDto>(); 
             NavManager.NavigateTo("/checkout");
             
             // Possibly navigate to /orders to see new order
