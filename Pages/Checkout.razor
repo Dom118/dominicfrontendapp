@@ -52,7 +52,7 @@ else
 
                 <input type="hidden" name="item_name" value="MyApp Purchase" />
                 <input type="hidden" name="item_number" value="@paypalOrderId" />
-                <input type="hidden" name="amount" value="1.00" />
+                <input type="hidden" name="amount" value="@grandTotal" />
                 <input type="hidden" name="currency_code" value="USD" />
                 <input type="hidden" name="return"
                        value="https://dominicfrontendapp-dgdugkhndkh7e8et.eastus2-01.azurewebsites.net/payment-success?method=paypal&orderId=@paypalOrderId" />
