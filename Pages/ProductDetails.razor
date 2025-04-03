@@ -5,44 +5,69 @@
 @inject NavigationManager Navigation;
 @inject HttpClient Http;
 
-@if (product == null)
-{
-    <p>Loading...</p>
-}
-else
-{
-    <div style="display: flex; align-items: flex-start; gap: 20px 20px;">
-
-        
-        <div style="flex: 3; align-items: center;">
-            <h3>@product.Name</h3>
-            <p><strong>Price:</strong> @product.Price</p>
-            <p><strong>Stock:</strong> @product.StockQuantity</p>
-
-      
-            <div style="margin-top: 20px;">
-              
-                <button class="btn btn-primary" @onclick="ContinueShopping">
-                    Continue Shopping
-                </button>
-
-         
-                <button class="btn btn-success" @onclick="AddToCart" style="margin-left: 10px;">
-                    Add to Cart
-                </button>
+<PageTitle>@(product?.Name ?? "Product Details")</PageTitle>
+<div class="container py-5">
+   @if (product == null)
+   {
+        <div class="text-center">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <p class="mt-2">Loading product details...</p>
+        </div>
+    }
+    else
+    {
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card shadow-sm">
+                    <div class="row g-0">
+                        <!-- Image Section -->
+                        <div class="col-md-5">
+                           @if (!string.IsNullOrEmpty(product.ImageUrl))
+                           {
+                                <img src="@product.ImageUrl" class="img-fluid rounded-start" alt="@product.Name" style="object-fit: cover; height: 100%; width: 100%;" />
+                           }
+                           else
+                           {
+                                <div class="bg-light d-flex align-items-center justify-content-center" style="height: 100%; width: 100%;">
+                                    <span class="text-muted">No Image Available</span>
+                                </div>
+                           }
+                        </div>
+                        <!-- Details Section -->
+                        <div class="col-md-7">
+                        <div class="card-body">
+                            <h3 class="card-title mb-3">@product.Name</h3>
+                            <p class="card-text"><strong>Price:</strong> $@product.Price</p>
+                            <p class="card-text"><strong>Stock:</strong> @product.StockQuantity available</p>
+                            <div class="mt-4 d-flex gap-2">
+                                <button class="btn btn-outline-primary" @onclick="ContinueShopping">
+                                    Continue Shopping
+                                </button>
+                                <button class="btn btn-success" @onclick="AddToCart">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-     
-        <div>
-            <img src="@product.ImageUrl" alt="Product image" style="min-width: 300px; height: 300px;" />
-        </div>
     </div>
-}
-@if (!string.IsNullOrEmpty(addToCartMessage))
-{
-    <div class="alert alert-info">@addToCartMessage</div>
-}
+    @if (!string.IsNullOrEmpty(addToCartMessage))
+    {
+        <div class="row justify-content-center mt-3">
+            <div class="col-lg-8">
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    @addToCartMessage
+                    <button type="button" class="btn-close" @onclick="() => addToCartMessage = null"></button>
+                </div>
+            </div>
+        </div>
+    }
+    }
+</div>
 
 
 @code {
